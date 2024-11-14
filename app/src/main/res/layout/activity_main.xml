@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/appicon" />
+
+    <!-- Button Layout ConstraintLayout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="24dp">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Programs"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Schedules"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Button 3 -->
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Calendar"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toBottomOf="@id/button1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Button 4 -->
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Public Transit Info"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toBottomOf="@id/button2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Button 5 -->
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="News"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toBottomOf="@id/button3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Button 6 -->
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Contacts"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toBottomOf="@id/button4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Button 7 -->
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_background"
+            android:text="Info"
+            android:textSize="18sp"
+            app:layout_constraintWidth_percent="1.0"
+            app:layout_constraintTop_toBottomOf="@id/button5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
