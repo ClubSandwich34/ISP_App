@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Arrays;
+
 import java.util.List;
+
 
 public class ViewProgramsActivity extends AppCompatActivity {
 
@@ -40,6 +42,7 @@ public class ViewProgramsActivity extends AppCompatActivity {
             intent.putExtra("PROGRAM_NAME", programName); // Pass selected program name
             startActivity(intent);
         });
+
 
         programsRecyclerView.setAdapter(adapter);
     }

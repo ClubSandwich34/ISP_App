@@ -1,4 +1,7 @@
 package com.example.instituteofthesouthpacific;
 
-public class ViewCalendarActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ViewCalendarActivity extends AppCompatActivity {
+
 }
