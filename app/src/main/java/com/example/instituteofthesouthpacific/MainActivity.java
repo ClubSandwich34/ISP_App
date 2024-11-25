@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.widget.Button;
 import android.widget.ImageView;
 
@@ -25,19 +24,18 @@ public class MainActivity extends AppCompatActivity {
     private Button button6;
     private Button button7;
 
-    private Class<?> viewPrograms = ViewProgramsActivity.class;
-    private Class<?> viewSchedules = ViewSchedulesActivity.class;
-    private Class<?> viewCalendar = ViewCalendarActivity.class;
-    private Class<?> viewPublicTransitInfo = ViewPublicTransitInfoActivity.class;
-    private Class<?> viewNews = ViewNewsActivity.class;
-    private Class<?> viewContacts = ViewContactsActivity.class;
-    private Class<?> viewInfo = ViewInfoActivity.class;
+    private final Class<?> viewPrograms = ViewProgramsActivity.class;
+    private final Class<?> viewSchedules = ViewSchedulesActivity.class;
+    private final Class<?> viewCalendar = ViewCalendarActivity.class;
+    private final Class<?> viewPublicTransitInfo = ViewPublicTransitInfoActivity.class;
+    private final Class<?> viewNews = ViewNewsActivity.class;
+    private final Class<?> viewContacts = ViewContactsActivity.class;
+    private final Class<?> viewInfo = ViewInfoActivity.class;
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("MainActivity", "onCreate executed");
 
         logoImageView = findViewById(R.id.logoImageView);
         buttonLayout = findViewById(R.id.buttonLayout);
