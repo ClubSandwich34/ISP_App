@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <!-- Semester 1 (Fall) -->
+    <semester>
+        <number>1</number>
+        <course>
+            <cid>CM1400</cid>
+            <cname>Technical Report Writing I</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>ET1100</cid>
+            <cname>Electrotechnology I</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MA1700</cid>
+            <cname>Mathematics*</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PH1100</cid>
+            <cname>Physics</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>EG1110</cid>
+            <cname>Engineering Graphics</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CH1120</cid>
+            <cname>Chemistry</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>SD1170</cid>
+            <cname>Technology Awareness I</cname>
+            <credit>0</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 2 (Winter) -->
+    <semester>
+        <number>2</number>
+        <course>
+            <cid>CH1121</cid>
+            <cname>Chemistry</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PH1101</cid>
+            <cname>Physics</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MA1101</cid>
+            <cname>Advanced Mathematics*</cname>
+            <credit>5</credit>
+            <lect>5</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>ET1101</cid>
+            <cname>Electrotechnology</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CM1401</cid>
+            <cname>Technical Report Writing II</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>EG1430</cid>
+            <cname>AutoCAD Essentials</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>SD1171</cid>
+            <cname>Technology Awareness II</cname>
+            <credit>2</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+    <!-- Semester 3 (Intersession) -->
+    <semester>
+        <number>3</number>
+        <course>
+            <cid>CI1110</cid>
+            <cname>Signals &amp; Measurements</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CI1313</cid>
+            <cname>Fabrication Techniques/Network Cabling</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>CT2300</cid>
+            <cname>Applied Programming</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 4 (Fall) -->
+    <semester>
+        <number>4</number>
+        <course>
+            <cid>AE2330</cid>
+            <cname>Analog Electronics I</cname>
+            <credit>6</credit>
+            <lect>5</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CG1205</cid>
+            <cname>Health Care and Safety</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>DP1110</cid>
+            <cname>Digital Systems I (Logic)</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MA2100</cid>
+            <cname>Mathematics - Calculus</cname>
+            <credit>5</credit>
+            <lect>5</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>MP2140</cid>
+            <cname>Circuit Analysis I</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CM2800</cid>
+            <cname>Oral/Written Communication Skills</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 5 (Winter) -->
+    <semester>
+        <number>5</number>
+        <course>
+            <cid>AE2331</cid>
+            <cname>Analog Electronics II</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CR1107</cid>
+            <cname>Network Fundamentals</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>CE2280</cid>
+            <cname>Modulation and Encoding</cname>
+            <credit>5</credit>
+            <lect>4</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>DP2120</cid>
+            <cname>Digital Systems II (Interfacing)</cname>
+            <credit>5</credit>
+            <lect>4</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>ET2150</cid>
+            <cname>Advanced Circuit Analysis</cname>
+            <credit>5</credit>
+            <lect>5</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 6 (Intersession) -->
+    <semester>
+        <number>6</number>
+        <course>
+            <cid>BL1300</cid>
+            <cname>Anatomy &amp; Physiology</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>CI1221</cid>
+            <cname>BET Electromechanical Systems</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>MA1530</cid>
+            <cname>Statistics</cname>
+            <credit>2</credit>
+            <lect>2</lect>
+            <lab>1</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 7 (Fall) -->
+    <semester>
+        <number>7</number>
+        <course>
+            <cid>AE3130</cid>
+            <cname>Active Circuit Applications</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CI3400</cid>
+            <cname>Biomedical Instrumentation I</cname>
+            <credit>5</credit>
+            <lect>4</lect>
+            <lab>4</lab>
+        </course>
+        <course>
+            <cid>CR2402</cid>
+            <cname>Switching, Routing &amp; Wireless</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>DP3200</cid>
+            <cname>Embedded Controller Applications</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PR2830</cid>
+            <cname>Capstone Project I (Seminar)</cname>
+            <credit>0</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>PR3150</cid>
+            <cname>Project Management and Financial Analysis</cname>
+            <credit>4</credit>
+            <lect>4</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 8 (Winter) -->
+    <semester>
+        <number>8</number>
+        <course>
+            <cid>TM1111</cid>
+            <cname>Medical Terminology</cname>
+            <credit>2</credit>
+            <lect>2</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>CR2903</cid>
+            <cname>Enterprise Network Security &amp; Automation</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>CP2000</cid>
+            <cname>Embedded Linux</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CI3412</cid>
+            <cname>Biomedical Instrumentation II</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>4</lab>
+        </course>
+        <course>
+            <cid>CI3510</cid>
+            <cname>Advanced Medical Systems</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>4</lab>
+        </course>
+        <course>
+            <cid>PR2831</cid>
+            <cname>Capstone Project II</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 9 (Intersession) -->
+    <semester>
+        <number>9</number>
+        <course>
+            <cid>WT1700</cid>
+            <cname>Biomedical Practicum (7 weeks)</cname>
+            <credit>0</credit>
+            <lect>0</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+</courses>

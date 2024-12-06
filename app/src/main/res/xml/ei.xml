@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <!-- Semester 1 (Fall) -->
+    <semester>
+        <number>1</number>
+        <course>
+            <cid>CM1400</cid>
+            <cname>Technical Report Writing I</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>ET1100</cid>
+            <cname>Electrotechnology I</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MA1700</cid>
+            <cname>Mathematics*</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PH1100</cid>
+            <cname>Physics</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>EG1110</cid>
+            <cname>Engineering Graphics</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CH1120</cid>
+            <cname>Chemistry</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>SD1170</cid>
+            <cname>Technology Awareness I</cname>
+            <credit>0</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 2 (Winter) -->
+    <semester>
+        <number>2</number>
+        <course>
+            <cid>CH1121</cid>
+            <cname>Chemistry</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PH1101</cid>
+            <cname>Physics</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MA1101</cid>
+            <cname>Advanced Mathematics*</cname>
+            <credit>5</credit>
+            <lect>5</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>ET1101</cid>
+            <cname>Electrotechnology</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>CM1401</cid>
+            <cname>Technical Report Writing II</cname>
+            <credit>3</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+        <course>
+            <cid>EG1430</cid>
+            <cname>AutoCAD Essentials</cname>
+            <credit>3</credit>
+            <lect>2</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>SD1171</cid>
+            <cname>Technology Awareness II</cname>
+            <credit>2</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+    <semester>
+        <number>7</number>
+        <course>
+            <cid>MP2210</cid>
+            <cname>Power Harmonics and Controls</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MP3250</cid>
+            <cname>Emergency Standby Systems and Alternate Energy Sources</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>MP3215</cid>
+            <cname>Power Systems: Analysis</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>MP3110</cid>
+            <cname>Motor Control Systems</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>PE3101</cid>
+            <cname>Electrical Facility Design I</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>2</lab>
+        </course>
+        <course>
+            <cid>PR1415</cid>
+            <cname>Capstone Project I (Seminar)</cname>
+            <credit>0</credit>
+            <lect>1</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 8 (Winter) -->
+    <semester>
+        <number>8</number>
+        <course>
+            <cid>WC1201</cid>
+            <cname>Work Term II</cname>
+            <credit>5</credit>
+            <lect>0</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+
+    <!-- Semester 9 (Spring) -->
+    <semester>
+        <number>9</number>
+        <course>
+            <cid>MP3225</cid>
+            <cname>Power Systems: Analysis &amp; Operation</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>MP3150</cid>
+            <cname>Power Devices &amp; Motor Drives</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>CI3600</cid>
+            <cname>Industrial Process Control</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>PE4110</cid>
+            <cname>Electrical Facility Design II</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>3</lab>
+        </course>
+        <course>
+            <cid>PR1425</cid>
+            <cname>Capstone Project II</cname>
+            <credit>4</credit>
+            <lect>3</lect>
+            <lab>0</lab>
+        </course>
+    </semester>
+</courses>
