@@ -1,49 +1,39 @@
 package com.example.instituteofthesouthpacific;
 
-import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.Arrays;
-
-import java.util.List;
-
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class ViewProgramsActivity extends AppCompatActivity {
+
+    static final String[] PROGRAMS = new String[] { "Architectural",
+            "Civil", "Geomatics", "Computing Systems", "Biomedical",
+            "Instrumentation", "Electrical (Power)",
+            "Telecommunications", "Chemical Processing", "Industrial", "Mechanical",
+            "Manufacturing", "Petroleum" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_programs);
 
-        List<String> programsList = Arrays.asList(
-                "Architectural Engineering Technology",
-                "Chemical Process Engineering Technology (Co-Op)",
-                "Civil Engineering Technology (Co-Op)",
-                "Computing Systems Engineering Technology (Co-op)",
-                "Electrical Engineering Technology (Power & Controls) Co-op",
-                "Electronics Engineering Technology (Biomedical)",
-                "Geomatics/Surveying Engineering Technology (Co-op)",
-                "Instrumentation and Controls Engineering Technology",
-                "Management Systems Engineering Technology (Co-op)",
-                "Mechanical Engineering Technology",
-                "Mechanical Engineering Technology (Manufacturing) Co-op",
-                "Petroleum Engineering Technology (Co-op)",
-                "Refrigeration & Air Conditioning Mechanic"
-        );
+        ListView programListView = (ListView) findViewById(R.id.programListView);
+        programListView.setAdapter(new ProgramAdapter(this, PROGRAMS));
+        programListView.setTextFilterEnabled(true);
 
-        RecyclerView programsRecyclerView = findViewById(R.id.programsRecyclerView);
-        programsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        ProgramsAdapter adapter = new ProgramsAdapter(programsList, programName -> {
-            Intent intent = new Intent(ViewProgramsActivity.this, ViewCoursesActivity.class);
-            intent.putExtra("PROGRAM_NAME", programName); // Pass selected program name
-            startActivity(intent);
+        programListView.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedValue = (String) parent.getItemAtPosition(position);
+                Toast.makeText(getBaseContext(), selectedValue, Toast.LENGTH_SHORT).show();
+            }
         });
-
-
-        programsRecyclerView.setAdapter(adapter);
     }
 }
