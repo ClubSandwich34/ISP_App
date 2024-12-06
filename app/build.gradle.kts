@@ -1,3 +1,11 @@
+allprojects{
+    repositories{
+        google()
+        mavenCentral()
+        maven{url = uri("https://jitpack.io")}
+    }
+}
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
