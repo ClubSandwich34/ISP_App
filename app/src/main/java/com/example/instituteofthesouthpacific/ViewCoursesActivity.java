@@ -28,6 +28,7 @@ public class ViewCoursesActivity extends AppCompatActivity {
 
         String programName = getIntent().getStringExtra("programName");
         TextView title = findViewById(R.id.programTitle);
+        title.setText(programName);
 
         courseListView = findViewById(R.id.courseListView);
         courses = new ArrayList<>();
