@@ -3,6 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/programTitle"
+        android:gravity="center"
+        android:text="Computing Systems"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Engineering Technology"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
 
     <ListView
         android:id="@+id/courseListView"

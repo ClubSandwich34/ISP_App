@@ -1,6 +1,5 @@
 package com.example.instituteofthesouthpacific;
 
-import android.content.Intent;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,12 +9,13 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class ViewCoursesActivity extends AppCompatActivity {
+
+    private String source = null;
+    private String programTitle = null;
     private ListView courseListView;
     private ArrayList<Course> courses;
 
@@ -24,7 +24,10 @@ public class ViewCoursesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_courses);
+        setContentView(R.layout.courses);
+
+        String programName = getIntent().getStringExtra("programName");
+        TextView title = findViewById(R.id.programTitle);
 
         courseListView = findViewById(R.id.courseListView);
         courses = new ArrayList<>();
@@ -57,7 +60,7 @@ public class ViewCoursesActivity extends AppCompatActivity {
             String semester = "";
             String currentSemester = "";
             String credit = "";
-            String lecture = "";
+            String lect = "";
             String lab = "";
 
             while (eventType != XmlPullParser.END_DOCUMENT) {
@@ -84,9 +87,9 @@ public class ViewCoursesActivity extends AppCompatActivity {
                                     Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
                                     credit = text;
                                     break;
-                                case "lecture":
+                                case "lect":
                                     Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
-                                    lecture = text;
+                                    lect = text;
                                     break;
                                 case "lab":
                                     Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
@@ -109,14 +112,14 @@ public class ViewCoursesActivity extends AppCompatActivity {
                             if (semester.equals("")) {
                                 semester = currentSemester;
                             }
-                            courses.add(new Course(courseName, courseID, semester, credit, lecture, lab));
-                            Log.d("XML Parsing", "Added course: " + courseName + " " + courseID + " " + semester + " " + credit + " " + lecture + " " + lab);
+                            courses.add(new Course(courseName, courseID, semester, credit, lect, lab));
+                            Log.d("XML Parsing", "Added course: " + courseName + " " + courseID + " " + semester + " " + credit + " " + lect + " " + lab);
 
                             courseName = "";
                             courseID = "";
                             semester = "";
                             credit = "";
-                            lecture = "";
+                            lect = "";
                             lab = "";
                         }
                         break;

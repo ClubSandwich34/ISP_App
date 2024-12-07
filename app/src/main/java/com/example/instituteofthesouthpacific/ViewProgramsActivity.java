@@ -32,6 +32,7 @@ public class ViewProgramsActivity extends AppCompatActivity {
 
                 int xmlResId = getXmlResIdForProgram(selectedValue);
                     Intent coursesScreen = new Intent(getApplicationContext(), ViewCoursesActivity.class);
+                    coursesScreen.putExtra("programName", selectedValue);  // Send the program name to the next activity
                     coursesScreen.putExtra("programXML", selectedValue);  // Send the program name to the next activity
                     startActivity(coursesScreen);
 

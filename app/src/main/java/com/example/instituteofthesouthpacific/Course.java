@@ -3,14 +3,14 @@ package com.example.instituteofthesouthpacific;
 import android.util.Log;
 
 public class Course {
-    private String courseName, courseID, semester, credit, lecture, lab;
+    private String courseName, courseID, semester, credit, lect, lab;
 
-    public Course(String courseName, String courseID, String semester, String credit, String lecture, String lab) {
+    public Course(String courseName, String courseID, String semester, String credit, String lect, String lab) {
         this.courseName = courseName;
         this.courseID = courseID;
         this.semester = semester;
         this.credit = credit;
-        this.lecture = lecture;
+        this.lect = lect;
         this.lab = lab;
     }
 
@@ -36,8 +36,8 @@ public class Course {
     }
 
     public String getLecture() {
-        Log.d("Course", "getLecture: " + lecture);
-        return lecture;
+        Log.d("Course", "getLecture: " + lect);
+        return lect;
     }
 
     public String getLab() {
@@ -46,6 +46,6 @@ public class Course {
     }
 
     public String toString() {
-        return courseID + " " + courseName + " " + credit + " " + lecture + " " + lab;
+        return courseID + " " + courseName + " " + credit + " " + lect + " " + lab;
     }
 }
