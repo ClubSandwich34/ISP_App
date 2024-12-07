@@ -4,50 +4,50 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing I</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1100</cid>
-            <cname>Electrotechnology I</cname>
+            <courseID>ET1100</courseID>
+            <courseName>Electrotechnology I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics*</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics*</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1100</cid>
-            <cname>Physics</cname>
+            <courseID>PH1100</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1110</cid>
-            <cname>Engineering Graphics</cname>
+            <courseID>EG1110</courseID>
+            <courseName>Engineering Graphics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CH1120</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1120</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1170</cid>
-            <cname>Technology Awareness I</cname>
+            <courseID>SD1170</courseID>
+            <courseName>Technology Awareness I</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -58,50 +58,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>CH1121</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1121</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1101</cid>
-            <cname>Physics</cname>
+            <courseID>PH1101</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics*</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics*</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1101</cid>
-            <cname>Electrotechnology</cname>
+            <courseID>ET1101</courseID>
+            <courseName>Electrotechnology</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>EG1430</cid>
-            <cname>AutoCAD Essentials</cname>
+            <courseID>EG1430</courseID>
+            <courseName>AutoCAD Essentials</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1171</cid>
-            <cname>Technology Awareness II</cname>
+            <courseID>SD1171</courseID>
+            <courseName>Technology Awareness II</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -111,22 +111,22 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>SU1320</cid>
-            <cname>Plane Surveying I</cname>
+            <courseID>SU1320</courseID>
+            <courseName>Plane Surveying I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>4</lab>
         </course>
         <course>
-            <cid>EN1120</cid>
-            <cname>Environmental Management</cname>
+            <courseID>EN1120</courseID>
+            <courseName>Environmental Management</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SU1500</cid>
-            <cname>Cartography</cname>
+            <courseID>SU1500</courseID>
+            <courseName>Cartography</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
@@ -137,43 +137,43 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>FT1240</cid>
-            <cname>Surveying Field Camp</cname>
+            <courseID>FT1240</courseID>
+            <courseName>Surveying Field Camp</courseName>
             <credit>1</credit>
             <lect>0</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral/Written Communication Skills</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral/Written Communication Skills</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SU1321</cid>
-            <cname>Plane Surveying II</cname>
+            <courseID>SU1321</courseID>
+            <courseName>Plane Surveying II</courseName>
             <credit>7</credit>
             <lect>4</lect>
             <lab>8</lab>
         </course>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SU1360</cid>
-            <cname>Graphics for Geomatics Engineering Technology</cname>
+            <courseID>SU1360</courseID>
+            <courseName>Graphics for Geomatics Engineering Technology</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SU2500</cid>
-            <cname>Photogrammetry</cname>
+            <courseID>SU2500</courseID>
+            <courseName>Photogrammetry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
@@ -184,43 +184,43 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>MA2180</cid>
-            <cname>Applied Geomatics Mathematics</cname>
+            <courseID>MA2180</courseID>
+            <courseName>Applied Geomatics Mathematics</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>SU1450</cid>
-            <cname>Geographic Information Systems (GIS) I</cname>
+            <courseID>SU1450</courseID>
+            <courseName>Geographic Information Systems (GIS) I</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU1540</cid>
-            <cname>Hydrography I</cname>
+            <courseID>SU1540</courseID>
+            <courseName>Hydrography I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU2330</cid>
-            <cname>Geodesy &amp; Geodetic Positioning I</cname>
+            <courseID>SU2330</courseID>
+            <courseName>Geodesy &amp; Geodetic Positioning I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU2540</cid>
-            <cname>Cadastral Surveying I</cname>
+            <courseID>SU2540</courseID>
+            <courseName>Cadastral Surveying I</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CP1640</cid>
-            <cname>Visual Basic Applications for ACAD</cname>
+            <courseID>CP1640</courseID>
+            <courseName>Visual Basic Applications for ACAD</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>2</lab>
@@ -231,8 +231,8 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>WC1300</cid>
-            <cname>Work Term I</cname>
+            <courseID>WC1300</courseID>
+            <courseName>Work Term I</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -242,50 +242,50 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>CA2900</cid>
-            <cname>Municipal Engineering</cname>
+            <courseID>CA2900</courseID>
+            <courseName>Municipal Engineering</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SU1460</cid>
-            <cname>Geographic Information Systems (GIS) II</cname>
+            <courseID>SU1460</courseID>
+            <courseName>Geographic Information Systems (GIS) II</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU2570</cid>
-            <cname>GNSS and Spatial Referencing</cname>
+            <courseID>SU2570</courseID>
+            <courseName>GNSS and Spatial Referencing</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU3500</cid>
-            <cname>Adjustments</cname>
+            <courseID>SU3500</courseID>
+            <courseName>Adjustments</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PR2890</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR2890</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MA3130</cid>
-            <cname>Advanced Geomatics Mathematics</cname>
+            <courseID>MA3130</courseID>
+            <courseName>Advanced Geomatics Mathematics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>GE1240</cid>
-            <cname>Geology for Geomatics/Surveying ET</cname>
+            <courseID>GE1240</courseID>
+            <courseName>Geology for Geomatics/Surveying ET</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
@@ -296,8 +296,8 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>WC1301</cid>
-            <cname>Work Term II</cname>
+            <courseID>WC1301</courseID>
+            <courseName>Work Term II</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -308,50 +308,50 @@
     <semester>
         <number>9</number>
         <course>
-            <cid>FT1260</cid>
-            <cname>Multidisciplinary Field Camp</cname>
+            <courseID>FT1260</courseID>
+            <courseName>Multidisciplinary Field Camp</courseName>
             <credit>1</credit>
             <lect>0</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management and Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management and Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR2891</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR2891</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SU1570</cid>
-            <cname>Remote Sensing</cname>
+            <courseID>SU1570</courseID>
+            <courseName>Remote Sensing</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SU3300</cid>
-            <cname>Geodesy &amp; Geodetic Positioning II</cname>
+            <courseID>SU3300</courseID>
+            <courseName>Geodesy &amp; Geodetic Positioning II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>SU2541</cid>
-            <cname>Cadastral Surveying II</cname>
+            <courseID>SU2541</courseID>
+            <courseName>Cadastral Surveying II</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SU1541</cid>
-            <cname>Hydrography II</cname>
+            <courseID>SU1541</courseID>
+            <courseName>Hydrography II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>

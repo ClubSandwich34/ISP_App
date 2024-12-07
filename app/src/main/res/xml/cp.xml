@@ -4,50 +4,50 @@
 <semester>
     <number>1</number>
     <course>
-        <cid>CM1400</cid>
-        <cname>Technical Report Writing I</cname>
+        <courseID>CM1400</courseID>
+        <courseName>Technical Report Writing I</courseName>
         <credit>3</credit>
         <lect>3</lect>
         <lab>0</lab>
     </course>
     <course>
-        <cid>ET1100</cid>
-        <cname>Electrotechnology I</cname>
+        <courseID>ET1100</courseID>
+        <courseName>Electrotechnology I</courseName>
         <credit>4</credit>
         <lect>3</lect>
         <lab>2</lab>
     </course>
     <course>
-        <cid>MA1700</cid>
-        <cname>Mathematics*</cname>
+        <courseID>MA1700</courseID>
+        <courseName>Mathematics*</courseName>
         <credit>4</credit>
         <lect>3</lect>
         <lab>2</lab>
     </course>
     <course>
-        <cid>PH1100</cid>
-        <cname>Physics</cname>
+        <courseID>PH1100</courseID>
+        <courseName>Physics</courseName>
         <credit>4</credit>
         <lect>3</lect>
         <lab>2</lab>
     </course>
     <course>
-        <cid>EG1110</cid>
-        <cname>Engineering Graphics</cname>
+        <courseID>EG1110</courseID>
+        <courseName>Engineering Graphics</courseName>
         <credit>3</credit>
         <lect>2</lect>
         <lab>2</lab>
     </course>
     <course>
-        <cid>CH1120</cid>
-        <cname>Chemistry</cname>
+        <courseID>CH1120</courseID>
+        <courseName>Chemistry</courseName>
         <credit>4</credit>
         <lect>3</lect>
         <lab>2</lab>
     </course>
     <course>
-        <cid>SD1170</cid>
-        <cname>Technology Awareness I</cname>
+        <courseID>SD1170</courseID>
+        <courseName>Technology Awareness I</courseName>
         <credit>0</credit>
         <lect>1</lect>
         <lab>0</lab>
@@ -58,50 +58,50 @@
 <semester>
 <number>2</number>
 <course>
-    <cid>CH1121</cid>
-    <cname>Chemistry</cname>
+    <courseID>CH1121</courseID>
+    <courseName>Chemistry</courseName>
     <credit>4</credit>
     <lect>3</lect>
     <lab>2</lab>
 </course>
 <course>
-    <cid>PH1101</cid>
-    <cname>Physics</cname>
+    <courseID>PH1101</courseID>
+    <courseName>Physics</courseName>
     <credit>4</credit>
     <lect>3</lect>
     <lab>2</lab>
 </course>
 <course>
-    <cid>MA1101</cid>
-    <cname>Advanced Mathematics*</cname>
+    <courseID>MA1101</courseID>
+    <courseName>Advanced Mathematics*</courseName>
     <credit>5</credit>
     <lect>5</lect>
     <lab>0</lab>
 </course>
 <course>
-    <cid>ET1101</cid>
-    <cname>Electrotechnology</cname>
+    <courseID>ET1101</courseID>
+    <courseName>Electrotechnology</courseName>
     <credit>4</credit>
     <lect>3</lect>
     <lab>2</lab>
 </course>
 <course>
-    <cid>CM1401</cid>
-    <cname>Technical Report Writing II</cname>
+    <courseID>CM1401</courseID>
+    <courseName>Technical Report Writing II</courseName>
     <credit>3</credit>
     <lect>3</lect>
     <lab>0</lab>
 </course>
 <course>
-    <cid>EG1430</cid>
-    <cname>AutoCAD Essentials</cname>
+    <courseID>EG1430</courseID>
+    <courseName>AutoCAD Essentials</courseName>
     <credit>3</credit>
     <lect>2</lect>
     <lab>2</lab>
 </course>
 <course>
-    <cid>SD1171</cid>
-    <cname>Technology Awareness II</cname>
+    <courseID>SD1171</courseID>
+    <courseName>Technology Awareness II</courseName>
     <credit>2</credit>
     <lect>1</lect>
     <lab>0</lab>
@@ -111,36 +111,36 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>SE2150</cid>
-            <cname>Safety Certifications</cname>
+            <courseID>SE2150</courseID>
+            <courseName>Safety Certifications</courseName>
             <credit>0</credit>
             <lect>0</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SE1530</cid>
-            <cname>Occupational Health and Safety</cname>
+            <courseID>SE1530</courseID>
+            <courseName>Occupational Health and Safety</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PO1170</cid>
-            <cname>Industrial Chemical Processes</cname>
+            <courseID>PO1170</courseID>
+            <courseName>Industrial Chemical Processes</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CF3205</cid>
-            <cname>Materials and Corrosion</cname>
+            <courseID>CF3205</courseID>
+            <courseName>Materials and Corrosion</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MC1850</cid>
-            <cname>Spreadsheet Applications</cname>
+            <courseID>MC1850</courseID>
+            <courseName>Spreadsheet Applications</courseName>
             <credit>1</credit>
             <lect>0</lect>
             <lab>2</lab>
@@ -151,43 +151,43 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>CH2451</cid>
-            <cname>Industrial Chemistry I</cname>
+            <courseID>CH2451</courseID>
+            <courseName>Industrial Chemistry I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral/Written Communications</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral/Written Communications</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>FM2102</cid>
-            <cname>Fluid Mechanics</cname>
+            <courseID>FM2102</courseID>
+            <courseName>Fluid Mechanics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CL1110</cid>
-            <cname>Material Balancing</cname>
+            <courseID>CL1110</courseID>
+            <courseName>Material Balancing</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PE2801</cid>
-            <cname>Industrial Mechanical Systems</cname>
+            <courseID>PE2801</courseID>
+            <courseName>Industrial Mechanical Systems</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
@@ -198,43 +198,43 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>CH3450</cid>
-            <cname>Industrial Chemistry II</cname>
+            <courseID>CH3450</courseID>
+            <courseName>Industrial Chemistry II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>TD2100</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD2100</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PO1180</cid>
-            <cname>Unit Operations and Process Design I</cname>
+            <courseID>PO1180</courseID>
+            <courseName>Unit Operations and Process Design I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SP1420</cid>
-            <cname>Asset Maintenance &amp; Reliability</cname>
+            <courseID>SP1420</courseID>
+            <courseName>Asset Maintenance &amp; Reliability</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CI1130</cid>
-            <cname>Process Control I</cname>
+            <courseID>CI1130</courseID>
+            <courseName>Process Control I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PO2010</cid>
-            <cname>Water and Wastewater Treatment Operations</cname>
+            <courseID>PO2010</courseID>
+            <courseName>Water and Wastewater Treatment Operations</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
@@ -245,8 +245,8 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>WC1830</cid>
-            <cname>Work Term</cname>
+            <courseID>WC1830</courseID>
+            <courseName>Work Term</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -256,43 +256,43 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>TD2120</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD2120</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management and Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management and Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CI1150</cid>
-            <cname>Process Control II</cname>
+            <courseID>CI1150</courseID>
+            <courseName>Process Control II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PO1190</cid>
-            <cname>Natural Gas Processing</cname>
+            <courseID>PO1190</courseID>
+            <courseName>Natural Gas Processing</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PO1000</cid>
-            <cname>Mineral Processing I</cname>
+            <courseID>PO1000</courseID>
+            <courseName>Mineral Processing I</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR2810</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR2810</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -303,36 +303,36 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>SE3310</cid>
-            <cname>Process Safety and Risk Management</cname>
+            <courseID>SE3310</courseID>
+            <courseName>Process Safety and Risk Management</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PO1210</cid>
-            <cname>Oil Refining</cname>
+            <courseID>PO1210</courseID>
+            <courseName>Oil Refining</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PO1220</cid>
-            <cname>Unit Operations and Process Design II</cname>
+            <courseID>PO1220</courseID>
+            <courseName>Unit Operations and Process Design II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PO2000</cid>
-            <cname>Mineral Processing II</cname>
+            <courseID>PO2000</courseID>
+            <courseName>Mineral Processing II</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR2811</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR2811</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>
@@ -343,22 +343,22 @@
     <semester>
         <number>9</number>
         <course>
-            <cid>CI3821</cid>
-            <cname>Process Analyzers</cname>
+            <courseID>CI3821</courseID>
+            <courseName>Process Analyzers</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>EN3400</cid>
-            <cname>Environment Management and Protection</cname>
+            <courseID>EN3400</courseID>
+            <courseName>Environment Management and Protection</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CI3200</cid>
-            <cname>Statistical Process Control</cname>
+            <courseID>CI3200</courseID>
+            <courseName>Statistical Process Control</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>

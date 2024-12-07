@@ -43,5 +43,10 @@
         android:layout_marginRight="16dp"
         android:background="#fff"
         android:clickable="true"/>
+
+    <ListView
+        android:id="@+id/courseListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
 

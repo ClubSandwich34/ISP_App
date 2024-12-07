@@ -1,39 +1,51 @@
 package com.example.instituteofthesouthpacific;
 
-public class Course {  // Make the class public
-    private String cname, cid;
-    private String credit, lect, lab;
+import android.util.Log;
 
-    public Course(String cid, String cname, String credit, String lect, String lab) {
-        this.cid = cid;
-        this.cname = cname;
+public class Course {
+    private String courseName, courseID, semester, credit, lecture, lab;
+
+    public Course(String courseName, String courseID, String semester, String credit, String lecture, String lab) {
+        this.courseName = courseName;
+        this.courseID = courseID;
+        this.semester = semester;
         this.credit = credit;
-        this.lect = lect;
+        this.lecture = lecture;
         this.lab = lab;
     }
 
-    public String getCid() {
-        return cid;
+
+    public String getSemester() {
+        Log.d("Course", "getSemester: " + semester);
+        return semester;
     }
 
-    public String getCname() {
-        return cname;
+    public String getCourseID() {
+        Log.d("Course", "getCourseID: " + courseID);
+        return courseID;
+    }
+
+    public String getCourseName() {
+        Log.d("Course", "getCourseName: " + courseName);
+        return courseName;
     }
 
     public String getCredit() {
+        Log.d("Course", "getCredit: " + credit);
         return credit;
     }
 
-    public String getLect() {
-        return lect;
+    public String getLecture() {
+        Log.d("Course", "getLecture: " + lecture);
+        return lecture;
     }
 
     public String getLab() {
+        Log.d("Course", "getLab: " + lab);
         return lab;
     }
 
-    @Override
     public String toString() {
-        return cid + " " + cname + " " + credit + " " + lect + " " + lab;
+        return courseID + " " + courseName + " " + credit + " " + lecture + " " + lab;
     }
 }

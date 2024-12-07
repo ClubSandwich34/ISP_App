@@ -4,50 +4,50 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing I</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1100</cid>
-            <cname>Electrotechnology I</cname>
+            <courseID>ET1100</courseID>
+            <courseName>Electrotechnology I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics*</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics*</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1100</cid>
-            <cname>Physics</cname>
+            <courseID>PH1100</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1110</cid>
-            <cname>Engineering Graphics</cname>
+            <courseID>EG1110</courseID>
+            <courseName>Engineering Graphics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CH1120</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1120</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1170</cid>
-            <cname>Technology Awareness I</cname>
+            <courseID>SD1170</courseID>
+            <courseName>Technology Awareness I</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -58,50 +58,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>CH1121</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1121</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1101</cid>
-            <cname>Physics</cname>
+            <courseID>PH1101</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics*</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics*</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1101</cid>
-            <cname>Electrotechnology</cname>
+            <courseID>ET1101</courseID>
+            <courseName>Electrotechnology</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>EG1430</cid>
-            <cname>AutoCAD Essentials</cname>
+            <courseID>EG1430</courseID>
+            <courseName>AutoCAD Essentials</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1171</cid>
-            <cname>Technology Awareness II</cname>
+            <courseID>SD1171</courseID>
+            <courseName>Technology Awareness II</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -110,43 +110,43 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>MP2210</cid>
-            <cname>Power Harmonics and Controls</cname>
+            <courseID>MP2210</courseID>
+            <courseName>Power Harmonics and Controls</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MP3250</cid>
-            <cname>Emergency Standby Systems and Alternate Energy Sources</cname>
+            <courseID>MP3250</courseID>
+            <courseName>Emergency Standby Systems and Alternate Energy Sources</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MP3215</cid>
-            <cname>Power Systems: Analysis</cname>
+            <courseID>MP3215</courseID>
+            <courseName>Power Systems: Analysis</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>MP3110</cid>
-            <cname>Motor Control Systems</cname>
+            <courseID>MP3110</courseID>
+            <courseName>Motor Control Systems</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE3101</cid>
-            <cname>Electrical Facility Design I</cname>
+            <courseID>PE3101</courseID>
+            <courseName>Electrical Facility Design I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR1415</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR1415</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -157,8 +157,8 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>WC1201</cid>
-            <cname>Work Term II</cname>
+            <courseID>WC1201</courseID>
+            <courseName>Work Term II</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -169,36 +169,36 @@
     <semester>
         <number>9</number>
         <course>
-            <cid>MP3225</cid>
-            <cname>Power Systems: Analysis &amp; Operation</cname>
+            <courseID>MP3225</courseID>
+            <courseName>Power Systems: Analysis &amp; Operation</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>MP3150</cid>
-            <cname>Power Devices &amp; Motor Drives</cname>
+            <courseID>MP3150</courseID>
+            <courseName>Power Devices &amp; Motor Drives</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CI3600</cid>
-            <cname>Industrial Process Control</cname>
+            <courseID>CI3600</courseID>
+            <courseName>Industrial Process Control</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE4110</cid>
-            <cname>Electrical Facility Design II</cname>
+            <courseID>PE4110</courseID>
+            <courseName>Electrical Facility Design II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PR1425</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR1425</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>

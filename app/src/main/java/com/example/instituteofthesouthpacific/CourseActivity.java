@@ -25,13 +25,13 @@ public class CourseActivity extends AppCompatActivity {
 
         this.setTitle(cid);
 
-        TextView cnt = (TextView)findViewById(R.id.cname);
+        TextView cnt = (TextView)findViewById(R.id.courseName);
         cnt.setText(cname);
 
         TextView crt = (TextView)findViewById(R.id.credit);
         crt.setText(credit + " credit hours");
 
-        TextView let = (TextView)findViewById(R.id.lect);
+        TextView let = (TextView)findViewById(R.id.lecture);
         let.setText(lect + " hours per week");
 
         TextView lbt = (TextView)findViewById(R.id.lab);

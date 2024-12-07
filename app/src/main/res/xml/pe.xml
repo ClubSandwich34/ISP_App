@@ -4,50 +4,50 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>CH1120</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1120</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1150</cid>
-            <cname>Applied Physics</cname>
+            <courseID>PH1150</courseID>
+            <courseName>Applied Physics</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1110</cid>
-            <cname>Engineering Graphics</cname>
+            <courseID>EG1110</courseID>
+            <courseName>Engineering Graphics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MC1850</cid>
-            <cname>Spreadsheet Applications</cname>
+            <courseID>MC1850</courseID>
+            <courseName>Spreadsheet Applications</courseName>
             <credit>1</credit>
             <lect>0</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing I</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>LW1540</cid>
-            <cname>Law, Ethics &amp; Sustainability</cname>
+            <courseID>LW1540</courseID>
+            <courseName>Law, Ethics &amp; Sustainability</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
@@ -58,50 +58,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>CH1121</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1121</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1430</cid>
-            <cname>AutoCAD Essentials</cname>
+            <courseID>EG1430</courseID>
+            <courseName>AutoCAD Essentials</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>FM2102</cid>
-            <cname>Fluid Mechanics</cname>
+            <courseID>FM2102</courseID>
+            <courseName>Fluid Mechanics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>GE1520</cid>
-            <cname>Physical Geology</cname>
+            <courseID>GE1520</courseID>
+            <courseName>Physical Geology</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CI2250</cid>
-            <cname>Hydraulics</cname>
+            <courseID>CI2250</courseID>
+            <courseName>Hydraulics</courseName>
             <credit>1</credit>
             <lect>1</lect>
             <lab>1</lab>
@@ -112,29 +112,29 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>CF3201</cid>
-            <cname>Materials &amp; Corrosion</cname>
+            <courseID>CF3201</courseID>
+            <courseName>Materials &amp; Corrosion</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>GE1502</cid>
-            <cname>Petroleum Geology I</cname>
+            <courseID>GE1502</courseID>
+            <courseName>Petroleum Geology I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SP2455</cid>
-            <cname>Petroleum OHS Management</cname>
+            <courseID>SP2455</courseID>
+            <courseName>Petroleum OHS Management</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SE2150</cid>
-            <cname>Safety Certifications</cname>
+            <courseID>SE2150</courseID>
+            <courseName>Safety Certifications</courseName>
             <credit>0</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -144,50 +144,50 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>CH2330</cid>
-            <cname>Petroleum Organic Chemistry</cname>
+            <courseID>CH2330</courseID>
+            <courseName>Petroleum Organic Chemistry</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral/Written Communication Skills</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral/Written Communication Skills</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>TD2100</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD2100</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>GE2510</cid>
-            <cname>Petroleum Geology II</cname>
+            <courseID>GE2510</courseID>
+            <courseName>Petroleum Geology II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CF2545</cid>
-            <cname>Mechanics of Solids</cname>
+            <courseID>CF2545</courseID>
+            <courseName>Mechanics of Solids</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>CI1125</cid>
-            <cname>Process Instrumentation and Control Systems</cname>
+            <courseID>CI1125</courseID>
+            <courseName>Process Instrumentation and Control Systems</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
@@ -198,43 +198,43 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>CH2335</cid>
-            <cname>Petroleum Chemistry</cname>
+            <courseID>CH2335</courseID>
+            <courseName>Petroleum Chemistry</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1670</cid>
-            <cname>Statistics</cname>
+            <courseID>MA1670</courseID>
+            <courseName>Statistics</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>TD3140</cid>
-            <cname>Heat Transfer</cname>
+            <courseID>TD3140</courseID>
+            <courseName>Heat Transfer</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PM2130</cid>
-            <cname>Drilling</cname>
+            <courseID>PM2130</courseID>
+            <courseName>Drilling</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PM2230</cid>
-            <cname>Completions</cname>
+            <courseID>PM2230</courseID>
+            <courseName>Completions</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PM2321</cid>
-            <cname>Reservoir Estimates</cname>
+            <courseID>PM2321</courseID>
+            <courseName>Reservoir Estimates</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
@@ -245,8 +245,8 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>WT1400</cid>
-            <cname>Work Term</cname>
+            <courseID>WT1400</courseID>
+            <courseName>Work Term</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -257,50 +257,50 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management &amp; Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management &amp; Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PM2420</cid>
-            <cname>Logging and Formation Evaluation</cname>
+            <courseID>PM2420</courseID>
+            <courseName>Logging and Formation Evaluation</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PM2140</cid>
-            <cname>Well Planning</cname>
+            <courseID>PM2140</courseID>
+            <courseName>Well Planning</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PM2520</cid>
-            <cname>Oil Facilities</cname>
+            <courseID>PM2520</courseID>
+            <courseName>Oil Facilities</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PM2222</cid>
-            <cname>Production</cname>
+            <courseID>PM2222</courseID>
+            <courseName>Production</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PM2330</cid>
-            <cname>Reservoir Analysis</cname>
+            <courseID>PM2330</courseID>
+            <courseName>Reservoir Analysis</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR2880</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR2880</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -311,50 +311,50 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>PR3110</cid>
-            <cname>Petroleum Risk Assessment</cname>
+            <courseID>PR3110</courseID>
+            <courseName>Petroleum Risk Assessment</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>PM2402</cid>
-            <cname>Production Logging &amp; Applications</cname>
+            <courseID>PM2402</courseID>
+            <courseName>Production Logging &amp; Applications</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PM2180</cid>
-            <cname>Well Control</cname>
+            <courseID>PM2180</courseID>
+            <courseName>Well Control</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PM2530</cid>
-            <cname>Gas Facilities &amp; Flow Assurance</cname>
+            <courseID>PM2530</courseID>
+            <courseName>Gas Facilities &amp; Flow Assurance</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PM2600</cid>
-            <cname>Intervention</cname>
+            <courseID>PM2600</courseID>
+            <courseName>Intervention</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EN3400</cid>
-            <cname>Environmental Mgmt. and Protection</cname>
+            <courseID>EN3400</courseID>
+            <courseName>Environmental Mgmt. and Protection</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR2881</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR2881</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>

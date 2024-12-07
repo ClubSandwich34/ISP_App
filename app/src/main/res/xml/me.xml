@@ -4,50 +4,50 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing I</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1100</cid>
-            <cname>Electrotechnology I</cname>
+            <courseID>ET1100</courseID>
+            <courseName>Electrotechnology I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics*</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics*</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1100</cid>
-            <cname>Physics</cname>
+            <courseID>PH1100</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1110</cid>
-            <cname>Engineering Graphics</cname>
+            <courseID>EG1110</courseID>
+            <courseName>Engineering Graphics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CH1120</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1120</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1170</cid>
-            <cname>Technology Awareness I</cname>
+            <courseID>SD1170</courseID>
+            <courseName>Technology Awareness I</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -58,50 +58,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>CH1121</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1121</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1101</cid>
-            <cname>Physics</cname>
+            <courseID>PH1101</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics*</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics*</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1101</cid>
-            <cname>Electrotechnology</cname>
+            <courseID>ET1101</courseID>
+            <courseName>Electrotechnology</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>EG1430</cid>
-            <cname>AutoCAD Essentials</cname>
+            <courseID>EG1430</courseID>
+            <courseName>AutoCAD Essentials</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1171</cid>
-            <cname>Technology Awareness II</cname>
+            <courseID>SD1171</courseID>
+            <courseName>Technology Awareness II</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -110,36 +110,36 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>TM1310</cid>
-            <cname>Technical Modeling - Mechanical Drawings</cname>
+            <courseID>TM1310</courseID>
+            <courseName>Technical Modeling - Mechanical Drawings</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>TM1320</cid>
-            <cname>Technical Modeling - 3D Modeling</cname>
+            <courseID>TM1320</courseID>
+            <courseName>Technical Modeling - 3D Modeling</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MH1300</cid>
-            <cname>Building Operations I</cname>
+            <courseID>MH1300</courseID>
+            <courseName>Building Operations I</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>SP2450</cid>
-            <cname>OHS Management Systems</cname>
+            <courseID>SP2450</courseID>
+            <courseName>OHS Management Systems</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SP1200</cid>
-            <cname>Machine Shop Practice</cname>
+            <courseID>SP1200</courseID>
+            <courseName>Machine Shop Practice</courseName>
             <credit>1</credit>
             <lect>0</lect>
             <lab>3</lab>
@@ -150,50 +150,50 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>CF1100</cid>
-            <cname>Materials and Processes I</cname>
+            <courseID>CF1100</courseID>
+            <courseName>Materials and Processes I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>CF2100</cid>
-            <cname>Mechanics of Solids: Statics</cname>
+            <courseID>CF2100</courseID>
+            <courseName>Mechanics of Solids: Statics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>ME1400</cid>
-            <cname>Mechatronics I - PLC</cname>
+            <courseID>ME1400</courseID>
+            <courseName>Mechatronics I - PLC</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MH2100</cid>
-            <cname>Building Operations II</cname>
+            <courseID>MH2100</courseID>
+            <courseName>Building Operations II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>SP1730</cid>
-            <cname>CNC Machining I</cname>
+            <courseID>SP1730</courseID>
+            <courseName>CNC Machining I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>TD2100</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD2100</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
@@ -204,50 +204,50 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>CF1120</cid>
-            <cname>Materials and Processes II</cname>
+            <courseID>CF1120</courseID>
+            <courseName>Materials and Processes II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>FM2100</cid>
-            <cname>Fluid Mechanics</cname>
+            <courseID>FM2100</courseID>
+            <courseName>Fluid Mechanics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>FM3100</cid>
-            <cname>Fluid Power</cname>
+            <courseID>FM3100</courseID>
+            <courseName>Fluid Power</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MA2130</cid>
-            <cname>Applied Mathematics</cname>
+            <courseID>MA2130</courseID>
+            <courseName>Applied Mathematics</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CF2511</cid>
-            <cname>Strength of Materials</cname>
+            <courseID>CF2511</courseID>
+            <courseName>Strength of Materials</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MH2830</cid>
-            <cname>Mechanical Building Systems I - HVAC</cname>
+            <courseID>MH2830</courseID>
+            <courseName>Mechanical Building Systems I - HVAC</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>TD2140</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD2140</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
@@ -258,22 +258,22 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>FM3200</cid>
-            <cname>Machine Design I</cname>
+            <courseID>FM3200</courseID>
+            <courseName>Machine Design I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>ME2400</cid>
-            <cname>Mechatronics II - Automation</cname>
+            <courseID>ME2400</courseID>
+            <courseName>Mechatronics II - Automation</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>FM2340</cid>
-            <cname>Fluid Dynamics</cname>
+            <courseID>FM2340</courseID>
+            <courseName>Fluid Dynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
@@ -282,50 +282,50 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>SP1835</cid>
-            <cname>Applied Statistics and Quality Control</cname>
+            <courseID>SP1835</courseID>
+            <courseName>Applied Statistics and Quality Control</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR2770</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR2770</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CF3100</cid>
-            <cname>Mechanics of Solids: Dynamics</cname>
+            <courseID>CF3100</courseID>
+            <courseName>Mechanics of Solids: Dynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>TD3140</cid>
-            <cname>Heat Transfer</cname>
+            <courseID>TD3140</courseID>
+            <courseName>Heat Transfer</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MH3350</cid>
-            <cname>Mechanical Building Systems II</cname>
+            <courseID>MH3350</courseID>
+            <courseName>Mechanical Building Systems II</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral/Written Communications Skills</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral/Written Communications Skills</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SP1420</cid>
-            <cname>Asset Maint. &amp; Reliability</cname>
+            <courseID>SP1420</courseID>
+            <courseName>Asset Maint. &amp; Reliability</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
@@ -336,57 +336,57 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management and Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management and Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ME3400</cid>
-            <cname>Mechatronics III - Robotics</cname>
+            <courseID>ME3400</courseID>
+            <courseName>Mechatronics III - Robotics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>FM3220</cid>
-            <cname>Machine Design II</cname>
+            <courseID>FM3220</courseID>
+            <courseName>Machine Design II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>SP2370</cid>
-            <cname>Quality Assurance</cname>
+            <courseID>SP2370</courseID>
+            <courseName>Quality Assurance</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>SE1010</cid>
-            <cname>Fire Protection</cname>
+            <courseID>SE1010</courseID>
+            <courseName>Fire Protection</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MH4610</cid>
-            <cname>Mechanical Building Systems III</cname>
+            <courseID>MH4610</courseID>
+            <courseName>Mechanical Building Systems III</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR2772</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR2772</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>TD3100</cid>
-            <cname>Thermodynamics</cname>
+            <courseID>TD3100</courseID>
+            <courseName>Thermodynamics</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>

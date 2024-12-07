@@ -1,50 +1,74 @@
 package com.example.instituteofthesouthpacific;
 
-/**
- * Created by admin on 2018-07-19.
- */
-
-import java.util.List;
-import java.util.Map;
-import android.widget.SimpleAdapter;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class CourseAdapter extends SimpleAdapter  {
+import java.util.List;
+
+public class CourseAdapter extends android.widget.BaseAdapter {
     private Context context;
-    private List<? extends Map<String, String>> items;
-    private int resource;
+    private List<Course> courses;
 
-
-    public CourseAdapter(Context context, List<? extends Map<String, String>> items,
-                         int resource, String[] from, int[] to) {
-
-        super(context, items, resource, from, to);
-
+    public CourseAdapter(Context context, List<Course> courses) {
         this.context = context;
-        this.items = items;
-        this.resource = resource;
+        this.courses = courses;
+    }
+
+    @Override
+    public int getCount() {
+        return courses.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return courses.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater = (LayoutInflater) context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = LayoutInflater.from(context);
+        convertView = inflater.inflate(R.layout.course, parent, false);
 
-        View rowView = inflater.inflate(resource, parent, false);
+        Course course = courses.get(position);
 
-        Map <String, String> map = items.get(position);
+        Log.d("CourseAdapter", "getView: Course Name: " + course.getCourseName());
+        Log.d("CourseAdapter", "getView: Course ID: " + course.getCourseID());
+        Log.d("CourseAdapter", "getView: Semester: " + course.getSemester());
+        Log.d("CourseAdapter", "getView: Credit: " + course.getCredit());
+        Log.d("CourseAdapter", "getView: Lecture: " + course.getLecture());
+        Log.d("CourseAdapter", "getView: Lab: " + course.getLab());
 
-        String title = map.get("cname");
-        String subtitle = map.get("cid");
+        // Set course name to TextView
+        TextView courseName = convertView.findViewById(R.id.courseName);
+        courseName.setText(course.getCourseName());
 
-        TextView textView = (TextView) rowView.findViewById(R.id.textid);
-        textView.setText(title);
-        TextView subTextView = (TextView) rowView.findViewById(R.id.subtextid);
-        subTextView.setText(subtitle);
-        return rowView;
+        // Set course ID to TextView
+        TextView courseID = convertView.findViewById(R.id.courseID);
+        courseID.setText(course.getCourseID());
+
+        // Set semester to TextView
+        TextView courseSemester = convertView.findViewById(R.id.semester);
+        courseSemester.setText("Semester: " + course.getSemester());
+
+        // You can also display additional info if needed, like credit, lecture, lab
+        TextView courseCredit = convertView.findViewById(R.id.credit);
+        courseCredit.setText(course.getCredit() + " credit course");
+
+        TextView courseLecture = convertView.findViewById(R.id.lecture);
+        courseLecture.setText(course.getLecture() + " lecture hours per week");
+
+        TextView courseLab = convertView.findViewById(R.id.lab);
+        courseLab.setText(course.getLab() + " lab hours per week");
+
+        return convertView;
     }
 }

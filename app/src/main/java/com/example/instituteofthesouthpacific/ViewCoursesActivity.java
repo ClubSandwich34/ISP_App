@@ -1,165 +1,163 @@
 package com.example.instituteofthesouthpacific;
 
-/**
- * Created by admin on 2018-07-19.
- */
-
-import androidx.appcompat.app.AppCompatActivity;
-import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.StringTokenizer;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
+import android.content.Intent;
+import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.content.Intent;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class ViewCoursesActivity extends AppCompatActivity {
-    private String source = null;
-    private String programTitle = null;
-    private ArrayList<Course>[] courses;
-    private int numberOfSections;
+    private ListView courseListView;
+    private ArrayList<Course> courses;
 
-    public final static String ITEM_TITLE = "cid";
-    public final static String ITEM_CAPTION = "cname";
-
-    public Map<String, String> createItem(String cid, String cname) {
-        Map<String, String> item = new HashMap<String, String>();
-        item.put(ITEM_TITLE, cid);
-        item.put(ITEM_CAPTION, cname);
-        return item;
-    }
+    private String programName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.courses);
+        setContentView(R.layout.activity_view_courses);
 
-        Bundle extras = getIntent().getExtras();
-        source = extras.getString("source");
-        programTitle = extras.getString("programTitle");
-        TextView title = (TextView) findViewById(R.id.programTitle);
-        title.setText(programTitle);
+        courseListView = findViewById(R.id.courseListView);
+        courses = new ArrayList<>();
 
-        numberOfSections = 0;
-        StringTokenizer st = new StringTokenizer(source);
-        while (st.hasMoreTokens()) {
-            String token = st.nextToken();
-            if (token.equals("<semester>"))
-                numberOfSections++;
+
+        // Get the program's XML file from the Intent
+        String programXML = getIntent().getStringExtra("programXML");
+        Log.d("OfferedCoursesActivity", "Received programXml: " + programXML);
+
+        // Load the courses from the XML
+        if (programXML != null) {
+            int xmlResourceId = getXmlResIdForProgram(programXML);
+            Log.d("OfferedCoursesActivity", "Mapped program to XML: " + xmlResourceId);
+            parseXML(xmlResourceId);
         }
 
-        courses = new ArrayList[numberOfSections];
-        parseXML(source);
-
-        List<Map<String, String>> data = new LinkedList<Map<String, String>>();
-
-        for (int i = 0; i < courses.length; i++) {
-            for (int j = 0; j < courses[i].size(); j++) {
-                data.add(createItem(courses[i].get(j).getCid(), courses[i].get(j).getCname()));
-            }
-        }
-
-        ListView coursesListView = (ListView) findViewById(R.id.coursesListView);
-        coursesListView.setAdapter(new CourseAdapter(this, data, R.layout.coursesrowlist,
-                new String[]{ITEM_TITLE, ITEM_CAPTION}, new int[]{R.id.subtextid, R.id.textid}));
-        coursesListView.setTextFilterEnabled(true);
-        coursesListView.setOnItemClickListener(new OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-
-                HashMap<String, String> item = (HashMap<String, String>) parent.getItemAtPosition(position);
-                String title = item.get(ITEM_TITLE);
-
-                Course c = null;
-                boolean b = false;
-                for (int i = 0; i < courses.length && !b; i++) {
-                    for (int j = 0; j < courses[i].size() && !b; j++) {
-                        c = courses[i].get(j);
-                        if (c.getCid().equals(title)) {
-                            b = true;
-                        }
-                    }
-                }
-
-                String cid = c.getCid();
-                String cname = c.getCname();
-                String credit = c.getCredit();
-                String lect = c.getLect();
-                String lab = c.getLab();
-
-                Intent courseScreen = new Intent(getApplicationContext(), CourseActivity.class);
-                courseScreen.putExtra("cid", cid);
-                courseScreen.putExtra("cname", cname);
-                courseScreen.putExtra("credit", credit);
-                courseScreen.putExtra("lect", lect);
-                courseScreen.putExtra("lab", lab);
-                startActivity(courseScreen);
-            }
-        });
+        // Set the custom CourseAdapter to the ListView
+        CourseAdapter adapter = new CourseAdapter(this, courses);
+        courseListView.setAdapter(adapter);
     }
 
-    public void parseXML(String src) {
-        try {
-            StringReader sr = new StringReader(src);
-            XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
-            factory.setNamespaceAware(true);
-            XmlPullParser xpp = factory.newPullParser();
-            xpp.setInput(sr);
 
-            String cid = "";
-            String cname = "";
+    private void parseXML(int xmlResId) {
+        try {
+            XmlResourceParser parser = getResources().getXml(xmlResId);
+            int eventType = parser.getEventType();
+            String currentTag = "";
+            String courseName = "";
+            String courseID = "";
+            String semester = "";
+            String currentSemester = "";
             String credit = "";
-            String lect = "";
+            String lecture = "";
             String lab = "";
-            int eventType = xpp.getEventType();
-            int semester = -1;
 
             while (eventType != XmlPullParser.END_DOCUMENT) {
-                String name = null;
                 switch (eventType) {
                     case XmlPullParser.START_TAG:
-                        name = xpp.getName();
-                        if ("semester".equals(name)) {
-                            semester++;
-                            courses[semester] = new ArrayList<>();
-                        } else if ("cid".equals(name)) {
-                            cid = xpp.nextText();
-                        } else if ("cname".equals(name)) {
-                            cname = xpp.nextText();
-                        } else if ("credit".equals(name)) {
-                            credit = xpp.nextText();
-                        } else if ("lect".equals(name)) {
-                            lect = xpp.nextText();
-                        } else if ("lab".equals(name)) {
-                            lab = xpp.nextText();
-                            courses[semester].add(new Course(cid, cname, credit, lect, lab));
+                        currentTag = parser.getName();
+                        Log.d("XML Parsing", "Start tag: " + currentTag);
+                        break;
+
+                    case XmlPullParser.TEXT:
+                        String text = parser.getText().trim();
+                        Log.d("XML Parsing", "Text: " + text);
+                        if (!text.isEmpty()) {
+                            switch (currentTag) {
+                                case "courseName":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    courseName = text;
+                                    break;
+                                case "courseID":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    courseID = text;
+                                    break;
+                                case "credit":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    credit = text;
+                                    break;
+                                case "lecture":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    lecture = text;
+                                    break;
+                                case "lab":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    lab = text;
+                                    break;
+                                case "number":
+                                    Log.d("XML Parsing", "Parsed text for tag " + currentTag + ": " + text);
+                                    semester = text;
+                                    currentSemester = text;
+                                    break;
+                                default:
+                                    Log.d("XML Parsing", "Unknown tag: " + currentTag);
+                            }
+                        }
+                        break;
+
+                    case XmlPullParser.END_TAG:
+                        if (parser.getName().equals("course")) {
+
+                            if (semester.equals("")) {
+                                semester = currentSemester;
+                            }
+                            courses.add(new Course(courseName, courseID, semester, credit, lecture, lab));
+                            Log.d("XML Parsing", "Added course: " + courseName + " " + courseID + " " + semester + " " + credit + " " + lecture + " " + lab);
+
+                            courseName = "";
+                            courseID = "";
+                            semester = "";
+                            credit = "";
+                            lecture = "";
+                            lab = "";
                         }
                         break;
                 }
-                eventType = xpp.next();
+                eventType = parser.next();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
-        // Log the parsed courses
-        for (int i = 0; i < courses.length; i++) {
-            for (int j = 0; j < courses[i].size(); j++) {
-                Log.d("ViewCoursesActivity", "Course: " + courses[i].get(j).toString());
-            }
+            Log.d("XML Parsing", "Finished parsing. Total courses: " + courses.size());
+            parser.close();
+        } catch (Exception e) {
+            Log.e("XML Parsing", "Error parsing XML: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 
-
+    private int getXmlResIdForProgram(String selectedValue) {
+        switch (selectedValue) {
+            case "Architectural":
+                return R.xml.ae;
+            case "Civil":
+                return R.xml.ce;
+            case "Geomatics":
+                return R.xml.ge;
+            case "Biomedical":
+                return R.xml.eb;
+            case "Computing Systems":
+                return R.xml.cs;
+            case "Electrical (Power)":
+                return R.xml.ep;
+            case "Instrumentation":
+                return R.xml.ei;
+            case "Chemical Processing":
+                return R.xml.cp;
+            case "Mechanical":
+                return R.xml.me;
+            case "Manufacturing":
+                return R.xml.mm;
+            case "Petroleum":
+                return R.xml.pe;
+            default:
+                return 0;
+        }
+    }
 }

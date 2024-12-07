@@ -4,50 +4,50 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing I</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing I</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1100</cid>
-            <cname>Electrotechnology I</cname>
+            <courseID>ET1100</courseID>
+            <courseName>Electrotechnology I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics*</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics*</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1100</cid>
-            <cname>Physics</cname>
+            <courseID>PH1100</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1110</cid>
-            <cname>Engineering Graphics</cname>
+            <courseID>EG1110</courseID>
+            <courseName>Engineering Graphics</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CH1120</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1120</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1170</cid>
-            <cname>Technology Awareness I</cname>
+            <courseID>SD1170</courseID>
+            <courseName>Technology Awareness I</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -58,50 +58,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>CH1121</cid>
-            <cname>Chemistry</cname>
+            <courseID>CH1121</courseID>
+            <courseName>Chemistry</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PH1101</cid>
-            <cname>Physics</cname>
+            <courseID>PH1101</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics*</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics*</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>ET1101</cid>
-            <cname>Electrotechnology</cname>
+            <courseID>ET1101</courseID>
+            <courseName>Electrotechnology</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>EG1430</cid>
-            <cname>AutoCAD Essentials</cname>
+            <courseID>EG1430</courseID>
+            <courseName>AutoCAD Essentials</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>SD1171</cid>
-            <cname>Technology Awareness II</cname>
+            <courseID>SD1171</courseID>
+            <courseName>Technology Awareness II</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -111,22 +111,22 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>CI1110</cid>
-            <cname>Signals &amp; Measurements</cname>
+            <courseID>CI1110</courseID>
+            <courseName>Signals &amp; Measurements</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CI1313</cid>
-            <cname>Fabrication Techniques/Network Cabling</cname>
+            <courseID>CI1313</courseID>
+            <courseName>Fabrication Techniques/Network Cabling</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP1270</cid>
-            <cname>Programming Fundamentals</cname>
+            <courseID>CP1270</courseID>
+            <courseName>Programming Fundamentals</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
@@ -136,36 +136,36 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>AE2330</cid>
-            <cname>Analog Electronics I</cname>
+            <courseID>AE2330</courseID>
+            <courseName>Analog Electronics I</courseName>
             <credit>6</credit>
             <lect>5</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP1340</cid>
-            <cname>Object Oriented Programming</cname>
+            <courseID>CP1340</courseID>
+            <courseName>Object Oriented Programming</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>DP1110</cid>
-            <cname>Digital Systems I (Logic)</cname>
+            <courseID>DP1110</courseID>
+            <courseName>Digital Systems I (Logic)</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MP2140</cid>
-            <cname>Circuit Analysis I</cname>
+            <courseID>MP2140</courseID>
+            <courseName>Circuit Analysis I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
@@ -176,43 +176,43 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral /Written Communication Skills</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral /Written Communication Skills</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CR1107</cid>
-            <cname>Network Fundamentals</cname>
+            <courseID>CR1107</courseID>
+            <courseName>Network Fundamentals</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP2530</cid>
-            <cname>Data Structures &amp; Algorithms</cname>
+            <courseID>CP2530</courseID>
+            <courseName>Data Structures &amp; Algorithms</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>DP2120</cid>
-            <cname>Digital Systems II (Interfacing)</cname>
+            <courseID>DP2120</courseID>
+            <courseName>Digital Systems II (Interfacing)</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CT2530</cid>
-            <cname>POSIX Operating Systems</cname>
+            <courseID>CT2530</courseID>
+            <courseName>POSIX Operating Systems</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>MA1530</cid>
-            <cname>Statistics</cname>
+            <courseID>MA1530</courseID>
+            <courseName>Statistics</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
@@ -223,8 +223,8 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>WC1700</cid>
-            <cname>Work Term I (12 weeks minimum)</cname>
+            <courseID>WC1700</courseID>
+            <courseName>Work Term I (12 weeks minimum)</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -235,43 +235,43 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>AE3130</cid>
-            <cname>Active Circuit Applications</cname>
+            <courseID>AE3130</courseID>
+            <courseName>Active Circuit Applications</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CR2402</cid>
-            <cname>Switching, Routing &amp; Wireless</cname>
+            <courseID>CR2402</courseID>
+            <courseName>Switching, Routing &amp; Wireless</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP3490</cid>
-            <cname>Software Engineering</cname>
+            <courseID>CP3490</courseID>
+            <courseName>Software Engineering</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP3520</cid>
-            <cname>Databases</cname>
+            <courseID>CP3520</courseID>
+            <courseName>Databases</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>DP3200</cid>
-            <cname>Embedded Controller Applications</cname>
+            <courseID>DP3200</courseID>
+            <courseName>Embedded Controller Applications</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR2760</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR2760</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -281,8 +281,8 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>WC1701</cid>
-            <cname>Work Term II</cname>
+            <courseID>WC1701</courseID>
+            <courseName>Work Term II</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -293,43 +293,43 @@
     <semester>
         <number>9</number>
         <course>
-            <cid>CR2903</cid>
-            <cname>Enterprise Network Security &amp; Automation</cname>
+            <courseID>CR2903</courseID>
+            <courseName>Enterprise Network Security &amp; Automation</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP3521</cid>
-            <cname>Web Programming</cname>
+            <courseID>CP3521</courseID>
+            <courseName>Web Programming</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP3810</cid>
-            <cname>iPhone Application Development</cname>
+            <courseID>CP3810</courseID>
+            <courseName>iPhone Application Development</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CP3831</cid>
-            <cname>Computer Graphics and Game Development</cname>
+            <courseID>CP3831</courseID>
+            <courseName>Computer Graphics and Game Development</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management &amp; Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management &amp; Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR2761</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR2761</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>

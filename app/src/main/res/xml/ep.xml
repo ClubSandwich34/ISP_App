@@ -4,43 +4,43 @@
     <semester>
         <number>1</number>
         <course>
-            <cid>PH1100</cid>
-            <cname>Physics</cname>
+            <courseID>PH1100</courseID>
+            <courseName>Physics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>EG1170</cid>
-            <cname>Engineering, Graphics &amp; CAD</cname>
+            <courseID>EG1170</courseID>
+            <courseName>Engineering, Graphics &amp; CAD</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>4</lab>
         </course>
         <course>
-            <cid>ET1170</cid>
-            <cname>DC Circuit Fundamentals</cname>
+            <courseID>ET1170</courseID>
+            <courseName>DC Circuit Fundamentals</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1700</cid>
-            <cname>Mathematics</cname>
+            <courseID>MA1700</courseID>
+            <courseName>Mathematics</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>CM1400</cid>
-            <cname>Technical Report Writing</cname>
+            <courseID>CM1400</courseID>
+            <courseName>Technical Report Writing</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>LW1540</cid>
-            <cname>Law, Ethics &amp; Sustainability</cname>
+            <courseID>LW1540</courseID>
+            <courseName>Law, Ethics &amp; Sustainability</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
@@ -51,50 +51,50 @@
     <semester>
         <number>2</number>
         <course>
-            <cid>PH1160</cid>
-            <cname>Physics of Energy Conversion</cname>
+            <courseID>PH1160</courseID>
+            <courseName>Physics of Energy Conversion</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>DR2320</cid>
-            <cname>Eng. Graphics for Electrical</cname>
+            <courseID>DR2320</courseID>
+            <courseName>Eng. Graphics for Electrical</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>ET1280</cid>
-            <cname>AC Circuit Fundamentals</cname>
+            <courseID>ET1280</courseID>
+            <courseName>AC Circuit Fundamentals</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MA1101</cid>
-            <cname>Advanced Mathematics</cname>
+            <courseID>MA1101</courseID>
+            <courseName>Advanced Mathematics</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MA1530</cid>
-            <cname>Statistics</cname>
+            <courseID>MA1530</courseID>
+            <courseName>Statistics</courseName>
             <credit>2</credit>
             <lect>2</lect>
             <lab>1</lab>
         </course>
         <course>
-            <cid>CM1401</cid>
-            <cname>Technical Report Writing II</cname>
+            <courseID>CM1401</courseID>
+            <courseName>Technical Report Writing II</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>CI1210</cid>
-            <cname>Controls &amp; Automation</cname>
+            <courseID>CI1210</courseID>
+            <courseName>Controls &amp; Automation</courseName>
             <credit>3</credit>
             <lect>2</lect>
             <lab>2</lab>
@@ -105,22 +105,22 @@
     <semester>
         <number>3</number>
         <course>
-            <cid>MP2910</cid>
-            <cname>DC Machines</cname>
+            <courseID>MP2910</courseID>
+            <courseName>DC Machines</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>AE1240</cid>
-            <cname>Electronic Devices</cname>
+            <courseID>AE1240</courseID>
+            <courseName>Electronic Devices</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PE2105</cid>
-            <cname>Electrical Practices I</cname>
+            <courseID>PE2105</courseID>
+            <courseName>Electrical Practices I</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>3</lab>
@@ -131,36 +131,36 @@
     <semester>
         <number>4</number>
         <course>
-            <cid>MA2100</cid>
-            <cname>Mathematics - Calculus</cname>
+            <courseID>MA2100</courseID>
+            <courseName>Mathematics - Calculus</courseName>
             <credit>5</credit>
             <lect>5</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MP2300</cid>
-            <cname>AC Circuits</cname>
+            <courseID>MP2300</courseID>
+            <courseName>AC Circuits</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>AE2260</cid>
-            <cname>Electronic Power Devices &amp; Circuits</cname>
+            <courseID>AE2260</courseID>
+            <courseName>Electronic Power Devices &amp; Circuits</courseName>
             <credit>5</credit>
             <lect>4</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>DP1310</cid>
-            <cname>Introduction to PLCs</cname>
+            <courseID>DP1310</courseID>
+            <courseName>Introduction to PLCs</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE2500</cid>
-            <cname>Electrical Practices II</cname>
+            <courseID>PE2500</courseID>
+            <courseName>Electrical Practices II</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>3</lab>
@@ -171,43 +171,43 @@
     <semester>
         <number>5</number>
         <course>
-            <cid>CM2800</cid>
-            <cname>Oral/Written Communication Skills</cname>
+            <courseID>CM2800</courseID>
+            <courseName>Oral/Written Communication Skills</courseName>
             <credit>3</credit>
             <lect>3</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>PR3150</cid>
-            <cname>Project Management &amp; Financial Analysis</cname>
+            <courseID>PR3150</courseID>
+            <courseName>Project Management &amp; Financial Analysis</courseName>
             <credit>4</credit>
             <lect>4</lect>
             <lab>0</lab>
         </course>
         <course>
-            <cid>MP2350</cid>
-            <cname>Transformers</cname>
+            <courseID>MP2350</courseID>
+            <courseName>Transformers</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>MP2920</cid>
-            <cname>AC Machines</cname>
+            <courseID>MP2920</courseID>
+            <courseName>AC Machines</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>DP2540</cid>
-            <cname>Advanced PLCs</cname>
+            <courseID>DP2540</courseID>
+            <courseName>Advanced PLCs</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE2501</cid>
-            <cname>Electrical Practices III</cname>
+            <courseID>PE2501</courseID>
+            <courseName>Electrical Practices III</courseName>
             <credit>2</credit>
             <lect>1</lect>
             <lab>3</lab>
@@ -218,8 +218,8 @@
     <semester>
         <number>6</number>
         <course>
-            <cid>WC1200</cid>
-            <cname>Work Term I</cname>
+            <courseID>WC1200</courseID>
+            <courseName>Work Term I</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -229,43 +229,43 @@
     <semester>
         <number>7</number>
         <course>
-            <cid>MP2210</cid>
-            <cname>Power Harmonics and Controls</cname>
+            <courseID>MP2210</courseID>
+            <courseName>Power Harmonics and Controls</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MP3250</cid>
-            <cname>Emergency Standby Systems and Alternate Energy Sources</cname>
+            <courseID>MP3250</courseID>
+            <courseName>Emergency Standby Systems and Alternate Energy Sources</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>MP3215</cid>
-            <cname>Power Systems: Analysis</cname>
+            <courseID>MP3215</courseID>
+            <courseName>Power Systems: Analysis</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>MP3110</cid>
-            <cname>Motor Control Systems</cname>
+            <courseID>MP3110</courseID>
+            <courseName>Motor Control Systems</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE3101</cid>
-            <cname>Electrical Facility Design I</cname>
+            <courseID>PE3101</courseID>
+            <courseName>Electrical Facility Design I</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>2</lab>
         </course>
         <course>
-            <cid>PR1415</cid>
-            <cname>Capstone Project I (Seminar)</cname>
+            <courseID>PR1415</courseID>
+            <courseName>Capstone Project I (Seminar)</courseName>
             <credit>0</credit>
             <lect>1</lect>
             <lab>0</lab>
@@ -276,8 +276,8 @@
     <semester>
         <number>8</number>
         <course>
-            <cid>WC1201</cid>
-            <cname>Work Term II</cname>
+            <courseID>WC1201</courseID>
+            <courseName>Work Term II</courseName>
             <credit>5</credit>
             <lect>0</lect>
             <lab>0</lab>
@@ -288,36 +288,36 @@
     <semester>
         <number>9</number>
         <course>
-            <cid>MP3225</cid>
-            <cname>Power Systems: Analysis &amp; Operation</cname>
+            <courseID>MP3225</courseID>
+            <courseName>Power Systems: Analysis &amp; Operation</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>MP3150</cid>
-            <cname>Power Devices &amp; Motor Drives</cname>
+            <courseID>MP3150</courseID>
+            <courseName>Power Devices &amp; Motor Drives</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>CI3600</cid>
-            <cname>Industrial Process Control</cname>
+            <courseID>CI3600</courseID>
+            <courseName>Industrial Process Control</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PE4110</cid>
-            <cname>Electrical Facility Design II</cname>
+            <courseID>PE4110</courseID>
+            <courseName>Electrical Facility Design II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>3</lab>
         </course>
         <course>
-            <cid>PR1425</cid>
-            <cname>Capstone Project II</cname>
+            <courseID>PR1425</courseID>
+            <courseName>Capstone Project II</courseName>
             <credit>4</credit>
             <lect>3</lect>
             <lab>0</lab>
