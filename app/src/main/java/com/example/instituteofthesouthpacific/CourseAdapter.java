@@ -59,13 +59,15 @@ public class CourseAdapter extends android.widget.BaseAdapter {
         TextView courseSemester = convertView.findViewById(R.id.semester);
         courseSemester.setText("Semester: " + course.getSemester());
 
-        // You can also display additional info if needed, like credit, lecture, lab
+        // Set Credits to TextView
         TextView courseCredit = convertView.findViewById(R.id.credit);
         courseCredit.setText(course.getCredit() + " credits");
 
+        // Set Lecture hours to TextView
         TextView courseLecture = convertView.findViewById(R.id.lect);
         courseLecture.setText(course.getLecture() + " lecture hours");
 
+        // Set Lab Hours to TextView
         TextView courseLab = convertView.findViewById(R.id.lab);
         courseLab.setText(course.getLab() + " lab hours");
 
