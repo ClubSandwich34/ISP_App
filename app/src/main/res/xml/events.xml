@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
     <event>
-        <date>2024-09-02</date>
+        <date>2024-9-2</date>
         <title>Labour Day</title>
         <description>College CLOSED</description>
     </event>
     <event>
-        <date>2024-09-09</date>
+        <date>2024-9-9</date>
         <title>Student Aid NL Booth - 10:00AM NDT - 11:00AM NDT</title>
         <description>They will be available to answer any questions that you may have.
             Location: Main Lobby</description>
     </event>
     <event>
-        <date>2024-09-10</date>
+        <date>2024-9-10</date>
         <title>Metrobus Information Booth - 9:30AM NDT - 12:30PM NDT</title>
         <description>Metrobus. Information about the routes for the St. John’s area will be available
             Location: Main lobby</description>
     </event>
     <event>
-        <date>2024-09-11</date>
+        <date>2024-9-11</date>
         <title>International CNA student/graduate Q&amp;A - All day event</title>
         <description>Do you have questions about Newfoundland and Labrador’s economic immigration programs or about the process to Permanent Residency (PR)?
 
@@ -37,19 +37,19 @@
             </description>
     </event>
     <event>
-        <date>2024-09-13</date>
+        <date>2024-9-13</date>
         <title>Planned Parenthood Booth - 10:00AM NDT - 12:00PM NDT</title>
         <description>They will be available to answer questions about sexual health, and choices for you to make.
             Location: Main lobby</description>
     </event>
     <event>
-        <date>2024-09-16</date>
+        <date>2024-9-16</date>
         <title>City of St. John’s Booth - 8:30AM NDT - 11:30AM NDT</title>
         <description>Information on recycling in St. John’s
             Location: Main Lobby</description>
     </event>
     <event>
-        <date>2024-09-18</date>
+        <date>2024-9-18</date>
         <title>International CNA student/graduate Q&amp;A - All day event</title>
         <description>Do you have questions about Newfoundland and Labrador’s economic immigration programs or about the process to Permanent Residency (PR)?
 
@@ -62,22 +62,22 @@
             College of the North Atlantic, in partnership with the Newfoundland and Labrador Department of Immigration, Population Growth and Skills are pleased to inform you that each Wednesday morning you can register for a 30-minute virtual one-on-one sessions with an Immigration Program Development Officer.</description>
     </event>
     <event>
-        <date>2024-09-27</date>
+        <date>2024-9-27</date>
         <title>Truth and Reconciliation Day</title>
         <description>Wear something orange.</description>
     </event>
     <event>
-        <date>2024-09-30</date>
+        <date>2024-9-30</date>
         <title>College CLOSED</title>
         <description>For National Day for Truth and Reconciliation</description>
     </event>
     <event>
-        <date>2024-10-01</date>
+        <date>2024-10-1</date>
         <title>Fees Due – Fall Semester</title>
         <description>(Tuesday, October 1, 2024)</description>
     </event>
     <event>
-        <date>2024-10-01</date>
+        <date>2024-10-1</date>
         <title>Last day to opt out of Health &amp; Dental</title>
         <description>(Tuesday, October 1, 2024)</description>
     </event>
@@ -127,31 +127,32 @@
         <description>(Friday, November 29, 2024)</description>
     </event>
     <event>
-        <date>2024-12-02</date>
+        <date>2024-12-2</date>
         <title>Online Registration for Winter Semester</title>
         <description>(Monday, December 2, 2024)</description>
     </event>
     <event>
-        <date>2024-12-03</date>
+        <date>2024-12-3</date>
+        <title>Online Registration for Winter Semester</title>
         <description>(Tuesday, December 3, 2024)</description>
     </event>
     <event>
-        <date>2024-12-04</date>
+        <date>2024-12-4</date>
         <title>Online Registration for Winter Semester</title>
         <description>(Wednesday, December 4, 2024)</description>
     </event>
     <event>
-        <date>2024-12-05</date>
+        <date>2024-12-5</date>
         <title>Online Registration for Winter Semester</title>
         <description>(Thursday, December 5, 2024)</description>
     </event>
     <event>
-        <date>2024-12-06</date>
+        <date>2024-12-6</date>
         <title>Online Registration for Winter Semester</title>
         <description>(Friday, December 6, 2024)</description>
     </event>
     <event>
-        <date>2024-12-09</date>
+        <date>2024-12-9</date>
         <title>Last Day of Classes for Fall Semester</title>
         <description>for Fall Semester (for courses with final exams)</description>
     </event>

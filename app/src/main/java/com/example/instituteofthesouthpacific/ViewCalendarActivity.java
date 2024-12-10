@@ -2,7 +2,6 @@ package com.example.instituteofthesouthpacific;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,61 +14,94 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.TextView;
-
-
+import android.graphics.Color;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 import org.w3c.dom.Element;
 
 import org.w3c.dom.NodeList;
 
-
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-
+import java.util.Locale;
 
 
 public class ViewCalendarActivity extends AppCompatActivity {
 
+    private CalendarView calendarView;
     private RecyclerView eventsRecyclerView;
     private EventsAdapter eventsAdapter;
     private List<HashMap<String, String>> allEvents;
+    private HashSet<String> eventDatesSet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calendar_activity);
 
-        CalendarView calendarView = findViewById(R.id.calendarView);
+        calendarView = findViewById(R.id.calendarView);
         eventsRecyclerView = findViewById(R.id.eventsRecyclerView);
         eventsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         allEvents = XMLParser.parseEvents(this, R.xml.events);
 
+        eventDatesSet = new HashSet<>();
+        for (HashMap<String, String> event : allEvents) {
+            eventDatesSet.add(event.get("date"));
+        }
+
         eventsAdapter = new EventsAdapter();
         eventsRecyclerView.setAdapter(eventsAdapter);
 
-
         calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
-
             String selectedDate = year + "-" + (month + 1) + "-" + dayOfMonth;
+            Log.d("SelectedDate", "Selected date: " + selectedDate);
 
             List<HashMap<String, String>> eventsForSelectedDate = getEventsForDate(selectedDate);
-
+            if (eventsForSelectedDate.isEmpty()) {
+                Log.d("NoEvents", "No events found for selected date: " + selectedDate);
+            } else {
+                Log.d("Events", "Found " + eventsForSelectedDate.size() + " events for date: " + selectedDate);
+            }
             eventsAdapter.updateEvents(eventsForSelectedDate);
         });
+
+        highlightEventDays();
     }
 
     private List<HashMap<String, String>> getEventsForDate(String date) {
         List<HashMap<String, String>> eventsForSelectedDate = new ArrayList<>();
         for (HashMap<String, String> event : allEvents) {
-            if (event.get("date").equals(date)) {
+            String eventDate = event.get("date");
+            Log.d("EventDate", "Comparing: " + eventDate + " with selected date: " + date);
+            if (eventDate.equals(date)) {
                 eventsForSelectedDate.add(event);
             }
         }
         return eventsForSelectedDate;
     }
 
+    private void highlightEventDays() {
+        for (String eventDate : eventDatesSet) {
+            String[] dateParts = eventDate.split("-");
+            int year = Integer.parseInt(dateParts[0]);
+            int month = Integer.parseInt(dateParts[1]) - 1;
+            int day = Integer.parseInt(dateParts[2]);
+
+            Calendar calendar = Calendar.getInstance();
+            calendar.set(year, month, day);
+
+            long timeInMillis = calendar.getTimeInMillis();
+            calendarView.setDate(timeInMillis, true, true);
+        }
+    }
 
     class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewHolder> {
         private List<HashMap<String, String>> events = new ArrayList<>();
@@ -113,6 +145,10 @@ public class ViewCalendarActivity extends AppCompatActivity {
         }
     }
 }
+
+
+
+
 
 class XMLParser {
 
