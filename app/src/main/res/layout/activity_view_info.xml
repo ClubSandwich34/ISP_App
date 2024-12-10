@@ -1,26 +1,32 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
 
-    <!-- Logo ImageView -->
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="wrap_content"
-        android:layout_height="233dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="#FFFFFF"
-        android:contentDescription="Company Logo"
-        android:src="@drawable/appicon" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/buttonLayout"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logoImageView"
-        android:layout_marginTop="24dp">
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:src="@drawable/appicon"
+        />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/developerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+</LinearLayout>

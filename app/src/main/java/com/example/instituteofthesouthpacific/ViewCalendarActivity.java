@@ -14,23 +14,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.TextView;
-import android.graphics.Color;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 
 import org.w3c.dom.Element;
 
 import org.w3c.dom.NodeList;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Locale;
+
 
 
 public class ViewCalendarActivity extends AppCompatActivity {
@@ -62,14 +56,9 @@ public class ViewCalendarActivity extends AppCompatActivity {
 
         calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
             String selectedDate = year + "-" + (month + 1) + "-" + dayOfMonth;
-            Log.d("SelectedDate", "Selected date: " + selectedDate);
 
             List<HashMap<String, String>> eventsForSelectedDate = getEventsForDate(selectedDate);
-            if (eventsForSelectedDate.isEmpty()) {
-                Log.d("NoEvents", "No events found for selected date: " + selectedDate);
-            } else {
-                Log.d("Events", "Found " + eventsForSelectedDate.size() + " events for date: " + selectedDate);
-            }
+
             eventsAdapter.updateEvents(eventsForSelectedDate);
         });
 
@@ -80,7 +69,6 @@ public class ViewCalendarActivity extends AppCompatActivity {
         List<HashMap<String, String>> eventsForSelectedDate = new ArrayList<>();
         for (HashMap<String, String> event : allEvents) {
             String eventDate = event.get("date");
-            Log.d("EventDate", "Comparing: " + eventDate + " with selected date: " + date);
             if (eventDate.equals(date)) {
                 eventsForSelectedDate.add(event);
             }
@@ -213,18 +201,6 @@ class XMLParser {
 
         Log.d(TAG, "Finished parsing. Total events: " + events.size());
         return events;
-    }
-
-
-
-    private static String getElementContent(Element element, String tagName) {
-        String content = "";
-        NodeList nodeList = element.getElementsByTagName(tagName);
-        if (nodeList.getLength() > 0) {
-            content = nodeList.item(0).getTextContent().trim();
-        }
-
-        return content.isEmpty() ? "No Data Available" : content;
     }
 }
 
