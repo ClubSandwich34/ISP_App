@@ -1,5 +1,6 @@
 package com.example.instituteofthesouthpacific;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +32,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Article article = articles.get(position);
+        holder.date.setText(article.getDate());
         holder.title.setText(article.getTitle());
         Glide.with(holder.image.getContext()).load(article.getImage()).into(holder.image);
         holder.itemView.setOnClickListener(v -> listener.onArticleClick(article));
@@ -43,12 +45,14 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView image;
+        TextView date;
         TextView title;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            image = itemView.findViewById(R.id.articleImage);
-            title = itemView.findViewById(R.id.articleTitle);
+            image = itemView.findViewById(R.id.newsImage);
+            date = itemView.findViewById(R.id.newsDate);
+            title = itemView.findViewById(R.id.newsTitle);
         }
     }
 

@@ -71,6 +71,7 @@ class NewsParser {
                     case XmlPullParser.END_TAG:
                         if ("article".equals(tagName) && currentArticle != null) {
                             articles.add(currentArticle);
+                            currentArticle = null;
                         }
                         break;
                 }
