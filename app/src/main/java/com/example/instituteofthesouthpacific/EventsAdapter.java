@@ -7,15 +7,12 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewHolder> {
-    private List<HashMap<String, String>> events;
-
-    public EventsAdapter(List<HashMap<String, String>> events) {
-        this.events = events;
-    }
+class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewHolder> {
+    private List<HashMap<String, String>> events = new ArrayList<>();
 
     @Override
     public EventViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -36,7 +33,13 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
         return events.size();
     }
 
-    public static class EventViewHolder extends RecyclerView.ViewHolder {
+    public void updateEvents(List<HashMap<String, String>> newEvents) {
+        events.clear();
+        events.addAll(newEvents);
+        notifyDataSetChanged();
+    }
+
+    public class EventViewHolder extends RecyclerView.ViewHolder {
         TextView dateTextView;
         TextView titleTextView;
         TextView descriptionTextView;
@@ -49,3 +52,4 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
         }
     }
 }
+
