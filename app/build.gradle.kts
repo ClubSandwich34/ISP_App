@@ -49,6 +49,9 @@ android {
 }
 
 dependencies {
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
+
     // Core libraries
     implementation ("androidx.core:core-ktx:1.10.1")
     implementation ("androidx.appcompat:appcompat:1.6.1")
@@ -59,7 +62,7 @@ dependencies {
     implementation ("com.android.volley:volley:1.2.1")
 
     // RecyclerView and CardView
-    implementation ("androidx.recyclerview:recyclerview:1.3.1")
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
     implementation ("androidx.cardview:cardview:1.0.0")
 
     // Lifecycle components 

@@ -39,6 +39,7 @@
         <activity android:name=".ViewCoursesActivity" />
         <activity android:name=".ViewSchedulesActivity" />
         <activity android:name=".ViewPublicTransitInfoActivity" />
+        <activity android:name=".DetailActivity" />
         <activity android:name=".ViewNewsActivity" />
         <activity android:name=".ViewContactsActivity" />
         <activity android:name=".ViewInfoActivity" />
