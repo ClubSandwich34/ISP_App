@@ -38,6 +38,8 @@
         </activity>
         <activity android:name=".ViewCoursesActivity" />
         <activity android:name=".ViewSchedulesActivity" />
+        <activity android:name=".SelectYearActivity" />
+        <activity android:name=".ViewScheduleImageActivity" />
         <activity android:name=".ViewPublicTransitInfoActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".AddEventActivity"/>

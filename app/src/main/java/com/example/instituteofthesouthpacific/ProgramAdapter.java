@@ -1,9 +1,5 @@
 package com.example.instituteofthesouthpacific;
 
-/**
- * Created by admin on 2018-06-22.
- */
-
 import android.widget.ArrayAdapter;
 import android.content.Context;
 import android.view.LayoutInflater;

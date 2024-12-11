@@ -41,20 +41,14 @@ public class AddEventActivity extends AppCompatActivity {
         String description = descriptionEditText.getText().toString().trim();
         String date = dateEditText.getText().toString().trim();
 
-        // Check if title or date is empty
         if (title.isEmpty() || date.isEmpty()) {
             Toast.makeText(this, "Title and Date are required", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        // Initialize SQLite helper
         SQLiteEvents dbHelper = new SQLiteEvents(this);
-        SQLiteDatabase db = dbHelper.getWritableDatabase();  // Get writable database
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
 
-        // Log the database operations
-        Log.d("AddEventActivity", "Inserting event: Title = " + title + ", Date = " + date);
-
-        // Create ContentValues to insert the event data
         ContentValues values = new ContentValues();
         values.put(SQLiteEvents.COLUMN_TITLE, title);
         values.put(SQLiteEvents.COLUMN_DESCRIPTION, description);
@@ -86,7 +80,7 @@ public class AddEventActivity extends AppCompatActivity {
             Log.e("Database Check", "No events found in the database.");
         }
 
-        cursor.close();  // Close the cursor
-        db.close();  // Close the database connection
+        cursor.close();
+        db.close();
     }
 }

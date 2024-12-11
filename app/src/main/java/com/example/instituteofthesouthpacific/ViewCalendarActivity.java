@@ -19,8 +19,6 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -34,7 +32,7 @@ public class ViewCalendarActivity extends AppCompatActivity {
     private EventsAdapter eventsAdapter;
     private List<HashMap<String, String>> allEvents;
     private HashSet<String> eventDatesSet;
-    private SQLiteEvents dbHelper;  // Use SQLiteEvents to interact with the database
+    private SQLiteEvents dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,11 +48,11 @@ public class ViewCalendarActivity extends AppCompatActivity {
 
         dbHelper = new SQLiteEvents(this);
 
-        // Initialize eventsAdapter before using it
+
         eventsAdapter = new EventsAdapter();
         eventsRecyclerView.setAdapter(eventsAdapter);
 
-        loadEvents(); // This should load events after the adapter is set
+        loadEvents();
 
         Button addEventButton = findViewById(R.id.addEventButton);
         addEventButton.setOnClickListener(v -> {
@@ -79,20 +77,16 @@ public class ViewCalendarActivity extends AppCompatActivity {
         allEvents.clear();
         eventDatesSet.clear();
 
-        // Load XML events (if any)
         List<HashMap<String, String>> xmlEvents = XMLParser.parseEvents(this, R.xml.events);
         allEvents.addAll(xmlEvents);
 
-        // Load events from the database
         List<HashMap<String, String>> dbEvents = loadEventsFromDatabase();
         allEvents.addAll(dbEvents);
 
-        // Add the event dates to the set
         for (HashMap<String, String> event : allEvents) {
             eventDatesSet.add(event.get("date"));
         }
 
-        // Update events for the current selected date
         eventsAdapter.updateEvents(getEventsForDate(getCurrentSelectedDate()));
     }
 
@@ -176,13 +170,6 @@ public class ViewCalendarActivity extends AppCompatActivity {
         }
     }
 }
-
-
-
-
-
-
-
 class XMLParser {
 
     private static final String TAG = "XMLParser";
